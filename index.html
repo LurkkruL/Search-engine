@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="nav.js"></script>
+    <title>Lurk engine</title>
+</head>
+
+<body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="search">
+        <h4>Project Lurk</h4>
+        <input class="grow" id="search" type="text" placeholder="After you type your search click either Dictionary or Browse, For dictionary just type the word"><br>
+        <a href="#" class="btn" onclick="dict()">Dictionary</a>
+        <a href="#" class="btn" onclick="scholar()">Browse</a>
+    </div>
+    <div class="cookie-container">
+        <p>
+            We use cookies in this website to give you the best experience on our site and show you relevant ads. To find out more, read our
+            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+        </p>
+
+        <button class="cookie-btn grow">
+          Okay
+        </button>
+    </div>
+    <script src="index.js"></script>
+    <script src="cookie.js"></script>
+</body>
+
+</html>
